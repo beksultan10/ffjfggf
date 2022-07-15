@@ -1,0 +1,128 @@
+// const digitalMonth = parseInt(prompt('Номер месяца '));
+// let textMonth;
+
+// switch(digitalMonth) {
+
+//     case 1: textMonth = 'Январь'; 
+//     break;
+//     case 2: textMonth = 'Февраль'; 
+//     break;
+//     case 3: textMonth = 'Март'; 
+//     break;
+//     case 4: textMonth = 'Апрель'; 
+//     break;
+//     case 5: textMonth = 'Май'; 
+//     break;
+//     case 6: textMonth = 'Июнь'; 
+//     break;
+//     case 7: textMonth = 'Июль'; 
+//     break;
+//     case 8: textMonth = 'Август'; 
+//     break;
+//     case 9: textMonth = 'Сентябрь'; 
+//     break;
+//     case 10: textMonth = 'Октябрь'; 
+//     break;
+//     case 11: textMonth = 'Ноябрь'; 
+//     break;
+//     case 12: textMonth = 'Декабрь'; 
+//     break;
+//     default:
+//         textMonth = 'Нет такого месяца';
+// }
+// alert(textMonth);
+
+
+// const number = parseInt(prompt('четное или нечетное'));
+// alert(number % 2 === 0 ? number : number * 2);
+
+// const hours = parseInt(prompt('введите часы'));
+// let dayName;
+
+
+//     if (hours >= 6 && hours < 12){
+//     dayName = 'Утро';
+//     }
+//   if (hours >= 12 && hours < 18){
+//     dayName = 'День';
+//   }
+//  if (hours >= 18 && hours < 24){
+//     dayName = 'вечер';
+//     }
+//   else(dayName)
+// alert(dayName);
+
+//  const a = parseInt(prompt('сторона а'));
+//  const b = parseInt(prompt('сторона б'));
+//  const c = parseInt(prompt('сторона с'));
+//  let perimetr = (a + b > c) ? 'Периметр = ' +  (a + b + c) : 'Ошибка сторон треугольника' ;
+
+
+//  alert(perimetr);
+
+
+
+
+
+
+
+// const number = prompt('Введите 4-значное число');
+// let digit_1 = number[0];
+// let digit_2 = number[1];
+// let digit_3 = number[2];
+// let digit_4 = number[3];
+
+// alert ((digit_1 < digit_2 < digit_3 < digit_4) ? 'по возрастанию' : 'не по возрастанию');
+
+
+
+
+//  const a = prompt('Введите a ');
+//  console.log(a);
+//  console.log(typeof a);
+//  const b = prompt('Введите b ');
+//  console.log(b);
+//  console.log(typeof b);
+//  const c = prompt('Введите c ');
+//  console.log(c);
+//  console.log(typeof c);
+
+
+// let d = Math.pow(b, 2) - (4 * a * c);
+// alert('квад корень д - '  + +d);
+// console.log(d);
+
+
+
+
+// const usd = 480.37;
+// const rub = 8.39;
+// const eur = 482.15;
+
+// let tenge = prompt('тенге');
+// let currency = prompt('валюта обмена').toLowerCase();
+// let result;
+
+// switch (currency)  {
+//    case 'доллар':
+//        result = tenge / usd;
+//        currencyString = 'USD';
+//        break;
+//        case 'евро':
+//         result = tenge / eur;
+//         currencyString = 'EUR';
+//         break;
+//         case 'рубль':
+//             result = tenge / rub;
+//             currencyString = 'RUB';
+//             break;
+         
+// }
+
+// alert (tenge + 'тг в ' +  currencyString + '=' + result);
+
+
+const bilet = prompt('номер билета(6 цифр)');
+let leftPart = parseInt(bilet[0]) + parseInt(bilet[1]) + parseInt(bilet[2]);
+let rightPart = parseInt(bilet[3]) + parseInt(bilet[4]) + parseInt(bilet[5]);
+alert(leftPart === rightPart ? 'билет счастливый' : 'билет обычный');
