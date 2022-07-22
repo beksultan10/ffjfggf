@@ -1,0 +1,110 @@
+
+//1
+
+// const age = parseInt(prompt('введите свой возраст'));
+// let agevozrast;
+
+// if(age >=0 && age < 2){
+//     agevozrast = 'вы ребенок';
+// }
+// if(age >=12 && age < 18){
+//     agevozrast = 'вы подросток';
+// }
+// if(age >=18 && age < 60){
+//     agevozrast = 'вы взрослый';
+// }
+// if(age >=60 && age < 100){
+//     agevozrast = 'вы старый';
+// }
+// else(agevozrast);
+// alert(agevozrast);
+
+
+
+//2
+//  const num = parseInt(prompt('введите число от 1-9'));
+//  let word;
+
+//  if( num === 0){
+//     word = ')';
+//  }
+//  if( num === 1){
+//     word = '!';
+//  }
+//  if( num === 2){
+//     word = '@';
+//  }
+//  if( num === 3){
+//     word = '#';
+//  }
+//  if( num === 4){
+//     word = '$';
+//  }
+//  if( num === 5){
+//     word = '%';
+//  }
+//  if( num === 6){
+//     word = '^';
+//  }
+//  if( num === 7){
+//     word = '&';
+//  }
+//  if( num === 8){
+//     word = '*';
+//  }
+//  if( num === 9){
+//     word = '(';
+//  }
+ 
+//  else(word);
+//  alert(word);
+
+
+//3
+    // let num = prompt('введите трехзначное число', 0);
+    // num = num + '';
+    // if (num[0] == num[1] || num[0] == num[2] || num[1] == num[2])
+    // {
+    //     alert('совпадает');
+    // }
+    // else {
+    //     alert('не совпадает');
+    // }
+
+
+//4
+    // let year = prompt('введите любой год', 0);
+     
+    //  if (year%4 == 0 && year%100 !==0)
+    //  {
+    //      alert('високосный год');
+    //  }
+    //  else {
+    //      alert('не високосный год');
+    //  }
+
+
+
+    //6
+//  const eur = 0.98;
+// const uan = 6.76;
+
+//  let dollar = prompt('доллар');
+//  let currency = prompt('валюта обмена').toLowerCase();
+//  let result;
+
+//  switch (currency)  {
+//     case 'евро':
+//         result = eur / dollar;
+//         currencyString = 'EUR';
+//         break;
+//         case 'юань':
+//          result = uan / dollar;
+//          currencyString = 'UAN';
+//          break;    
+//  }
+
+//  alert (dollar + 'доллар в ' +  currencyString + '=' + result);
+
+
+//7
