@@ -1,0 +1,42 @@
+//massives and cicles
+
+// const loopCount = parseInt(prompt('количество повторении'));
+// let i = 0;
+// while (i < loopCount) {
+//     document.write('#');
+//     i++;
+// }
+
+
+
+//  let loopCount = parseInt(prompt('число для уменьшения до 0'));
+//  let i = 0;
+// while (loopCount >= 0) {
+//      document.write(loopCount + '<br>');
+//      loopCount--;
+//  }
+
+
+const firstNumber = parseInt(prompt('число один'));
+const secondNumber = parseInt(prompt('число два'));
+let i = 0;
+let j = 0;
+
+let firstDivider = [];
+let secondDivider = [];
+
+while (i < firstNumber) {
+    if(firstNumber % i === 0){
+        firstDivider.push(i);
+    }
+i++;
+}
+while (i < secondNumber) {
+    if(secondNumber % i === 0){
+        secondDivider.push(j);
+    }
+j++;
+}
+
+alert(`делители числа 1: ${firstDivider.join()}`);
+alert(`делители числа 2: ${secondDivider.join()}`);
