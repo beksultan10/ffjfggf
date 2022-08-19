@@ -1,0 +1,43 @@
+// function myData (age = 18, name, height) {
+//     let result = `vash vozrast: ${age}`;
+//     if(name){
+//         result += `, vashe imya: ${name}`;
+//     }
+//     if(height){
+//         result += `, vashe rost: ${height}`;
+//     }
+
+//     console.log(result);
+// }
+
+// myData(18,null,176);
+
+
+// function min(num1,num2){
+//     return Math.pow(num1,num2);
+// }
+// console.log(min(5,2));
+
+// function calc(num1,num2, sign){
+//     let result;
+// if(sign === '+') return num1 + num2;
+// if(sign === '-') return num1 - num2;
+// if(sign === '/') return num1 / num2;
+
+// }
+
+// console.log(calc(5,2, '+'));
+
+function medium (num){
+    for(let i = 1; i<=9; i++){
+        console.log
+    }
+}
+
+function table (){
+    for(let i =2; i <= 9; i++){
+        medium(i);
+    }
+}
+
+table();
