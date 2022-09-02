@@ -1,0 +1,69 @@
+function getRandomNum(){                                              1                 
+    const rndInt = Math.floor(Math.random() * 100)+ 1
+    return rndInt;
+}
+
+const arrayInt = [];
+for(let i = 0; i<10; i++) {
+    arrayInt.push(getRandomNum());
+}
+
+function showOurArray(array){
+console.log(array);
+
+}
+
+function onlyEven(array){
+    const result = [];
+    for(let i = 0; i<= array.length; i++){
+        if(array[i] % 2 === 0){
+            result.push(array[i]);
+        }
+    }
+
+    showOurArray(result);
+}
+
+function arraySum(array){
+    let sum = 0;
+    for(let i =0; i < array.length; i++){
+        sum += array[i];
+
+    }
+    console.log(sum);
+}
+
+
+function arrayMax(array){
+const result = [...array];
+result.sort(function (a,b){
+    return a-b;
+});
+console.log(result.pop());
+}
+
+function addArray(array, index, item){
+    const result = [...array];
+    result.splice(index, 0, item);
+    console.log(result);
+}
+
+function deleteArray(array, indexOf){
+    const result = [...array];
+    result.splice(indexOf, 1);
+    console.log(result);
+}
+
+showOurArray(arrayInt);
+onlyEven(arrayInt);
+arraySum(arrayInt);
+arrayMax(arrayInt);
+addArray(arrayInt, 5, 'abcdefj');
+deleteArray(arrayInt);
+
+
+
+
+
+
+
